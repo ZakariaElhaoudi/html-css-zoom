@@ -7,10 +7,56 @@
 
 body{
     position: relative;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+  
+
+}
+
+
+.speaker{
+    position: fixed;
+    display: block;
+    top: 20px;
+    right: 30px;
+    color: white;
+    z-index: 1000;
+    background-color: rgba(259,259,259, 0.5);
+
 }
 
 
 /* regole main  */
+
+
+#conteiner{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.item{
+    padding: 10px 5px;
+    width: 250px;
+    position: relative;
+}
+
+.item img{
+    max-width: 100%;
+    display: block;
+}
+
+.microphone-slash{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-size: 15px;
+
+}
 
 
 
@@ -18,10 +64,6 @@ body{
 
 /* regole footer  */
 
-
-
-
-    /* DEBUG  */
 
 footer{
     position:fixed;
@@ -32,19 +74,27 @@ footer{
     height: 100px;
 }
 
-#conteiner{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    text-align: center;
-    padding: 100px 20px;
+
+
+
+    /* DEBUG  */
+
+
+
+
+.link-footer{
+     display: block;
+     color: white;
+     text-align: center;
 
 }
 
-.item{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    border: solid 4px black;
+.link-footer i {
+    color: white;
+}
+
+.conteiner-footer{
+    display: flex;
+
 }
 
