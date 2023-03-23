@@ -75,26 +75,36 @@ footer{
 }
 
 
-
-
-    /* DEBUG  */
-
-
-
-
 .link-footer{
-     display: block;
+    display: flex;
+    align-items: center;
      color: white;
-     text-align: center;
+}
+
+.footer-icons{ 
+    text-align: center;
+    color: white;
+    padding: 18px 20px;
+    font-size: 10px;
 
 }
 
-.link-footer i {
-    color: white;
+.green{
+    color: green;
 }
 
 .conteiner-footer{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.end{
+    height: 100%;
+    color: red;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 45px 40px;
 
 }
 
