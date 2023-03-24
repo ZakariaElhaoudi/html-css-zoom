@@ -35,9 +35,6 @@ header{
 
 
 /* regole main  */
-main{
-    /* height: calc(100vh/ - 150px ); */
-}
 
 #conteiner{
     display: flex;
