@@ -10,12 +10,20 @@ body{
     background-color: black;
     font-family: 'Lato', sans-serif;
   
+}
 
+
+/* regole header */
+header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
 }
 
 
 .speaker{
-    position: fixed;
+
     display: block;
     top: 20px;
     right: 30px;
@@ -27,14 +35,17 @@ body{
 
 
 /* regole main  */
-
+main{
+    /* height: calc(100vh/ - 150px ); */
+}
 
 #conteiner{
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
     text-align: center;
-    padding: 100px 20px;
+    height: calc(100vh - 150px );
+    overflow: auto;
 }
 
 .item{
@@ -66,9 +77,6 @@ body{
 
 
 footer{
-    position:fixed;
-    bottom: 0;
-    left: 0;
     background-color: #23272a;
     width: 100%;
     height: 100px;
@@ -104,7 +112,7 @@ footer{
     height: 100%;
     color: red;
     background-color: rgba(0,0,0, 0.4);
-    padding: 45px 40px;
+    padding: 35px 40px;
 
 }
 
